@@ -1,0 +1,35 @@
+{
+  "name": "everygis",
+  "version": "1.0.0",
+  "description": "Posts a Google Image Search result for every word.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jimkang/everygis.git"
+  },
+  "keywords": [],
+  "author": "Jim Kang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimkang/everygis/issues"
+  },
+  "homepage": "https://github.com/jimkang/everygis",
+  "devDependencies": {
+    "tape": "^3.0.3"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "call-next-tick": "^1.1.2",
+    "get-file-line-offsets-in-json": "^1.0.2",
+    "google-images": "^0.1.2",
+    "jsonfile": "^2.2.3",
+    "line-chomper": "^0.5.0",
+    "lodash": "^3.10.1",
+    "pick-first-good-url": "^2.0.0",
+    "probable": "^1.7.0",
+    "twit": "^1.1.20"
+  }
+}
